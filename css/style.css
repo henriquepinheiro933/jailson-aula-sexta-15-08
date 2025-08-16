@@ -1,0 +1,25 @@
+/*. declaração das variaveis de cores */
+:root {
+    --cor-fundo: #f0f2f5;
+    --cor-branco: #ffffff;
+    --cor-texto-primario: #1c1e21;
+    --cor-texto-secundadio: #606770;
+    --cor-borda: #dcdfe3;
+    --cor-acento: #007bff;
+}
+
+/*2. reset e embed Globais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-sistem, Blinkmaacsystemfront, 'segeo UI', roboto, "helvitica neue", Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
